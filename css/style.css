@@ -27,10 +27,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
-.logo {
-}
-.logo__img {
-}
+
 .menu {
 	margin-right: 70px;
 }
@@ -52,4 +49,125 @@ body {
 .menu__link:hover {
 	background: #131313;
 	color: #FFFFFF;
+}
+
+
+
+.bike {
+	padding: 160px 0 150px;
+}
+
+.bike__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bike__column {
+}
+
+.bike__column-slider {
+	flex-basis: 630px;
+	max-width: 630px;
+	margin-left: 30px;
+}
+
+.bike__title {
+	font-weight: 700;
+   font-size: 64px;
+   line-height: 83%;
+	margin: 120px 0 5px;
+}
+
+.bike__subtitle {
+	font-weight: 400;
+   font-size: 32px;
+   line-height: 82%;
+   color: #6F6F6F;
+	margin: 0 0 60px;
+}
+
+.bike__text {
+	max-width: 420px;
+	margin: 0 0 20px;
+	line-height: 120%;
+}
+
+
+.bike__link {
+	margin-top: 80px;
+	display: inline-block;
+	background: #131313;
+	color: #FFFFFF;
+	padding: 28px 81px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 83.3%;
+	letter-spacing: 1.1em;
+	transition: 0.3s ease;
+}
+
+.bike__link:hover {
+	background: #FF4040;
+}
+
+.bike-slider .slick-dots {
+	right: 0;
+	top: 50px;
+}
+
+.slick-dots {
+	position: absolute;
+}
+
+.slick-dots li + li {
+   padding-top: 10px;
+}
+
+.slick-dots button {
+	font-size: 0;
+	padding: 0;
+	border: none;
+	background: #131313;
+	width: 2px;
+	height: 25px;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.slick-dots button:hover {
+	background: #FF4040;
+}
+
+.slick-active button {
+	background: #FF4040;
+}
+
+.bike-slider__item {
+}
+
+.bike__row {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25px;
+}
+
+.bike__row-item {
+	text-align: center;
+	min-width: 160px;
+}
+
+.bike__row-title {
+	font-weight: 700;
+   font-size: 14px;
+   line-height: 82.3%;
+   text-transform: uppercase;
+}
+
+.bike__row-text {
+	font-weight: 400;
+   font-size: 12px;
+   line-height: 80%;
+	text-transform: lowercase;
 }

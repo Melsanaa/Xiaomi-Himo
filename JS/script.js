@@ -1,11 +1,9 @@
-const btn = document.querySelector('.menu-btn');
-const nav = document.querySelector('.nav');
-
-btn.addEventListener('click', ()=>{
-   nav.classList.toggle('menu__open');
+$(function(){
+	$('.bike-slider').slick({
+		arrows: false,
+		dots: true,
+		fade: true,
+		autoplay: true,
+		autoplaySpeed: 5000,
+	});
 });
-
-// const nav = document.querySelector('.nav');
-// nav.addEventListener('click',(event) => {
-// nav.classList.toggle('open');
-// });
