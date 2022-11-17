@@ -23,11 +23,11 @@
 			<nav class="menu">
          <ul class="menu__list">
 				<li class="menu__item">
-					<a href="#!" class="menu__link">Описание</a></li>
+					<a href="#info" class="menu__link">Описание</a></li>
 					<li class="menu__item">
-						<a href="#!" class="menu__link">Характеристики</a></li>
+						<a href="#characteristics" class="menu__link">Характеристики</a></li>
 						<li class="menu__item">
-							<a href="#!" class="menu__link">Стоимость</a></li>
+							<a href="#order" class="menu__link">Стоимость</a></li>
 			</ul>
 			</nav>
 		</div>
@@ -42,7 +42,7 @@
 					<h3 class="bike__subtitle">Электрический велосипед</h3>
 					<p class="bike__text">Полная свобода передвижения и надежный транспорт для путешествий на любые расстояния</p>
 					<p class="bike__text">HIMO C26 – это новый электровелосипед от Xiaomi, который создан как для езды по городу, так и бездорожью. Он имеет мощный двигатель и емкий аккумулятор, благодаря которым способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее. </p>
-					<a href="#!" class="bike__link">ЗАКАЗАТЬ</a>
+					<a href="#order" class="bike__link">ЗАКАЗАТЬ</a>
 				</div>
 
 				<div class="bike__column bike__column-slider">
@@ -75,7 +75,7 @@
 		</div>
 	</section>
 
-	<section class="info">
+	<section class="info" id="info">
 		<div class="container">
       <div class="info__inner">
       <div class="info__img">
@@ -113,7 +113,7 @@
 		</div>
 	</section>
 
-   <section class="characteristics">
+   <section class="characteristics" id="characteristics">
 		<div class="container">
 			<h3 class="characteristics__title-title">Характеристики</h3>
 			<div class="characteristics__inner">
@@ -218,6 +218,89 @@
 			</div>
 		</div>
 	</section>
+
+	<div class="slider">
+		<div class="container">
+			<div class="slider__items">
+				<div class="slider__item">
+					<img class="slider__img" src="/img/block4-1.jpg" alt="картинка">
+				</div>
+				<div class="slider__item">
+					<img class="slider__img" src="/img/block4-2.jpg" alt="картинка">
+				</div>
+				<div class="slider__item">
+					<img class="slider__img" src="/img/block4-3jpg.jpg" alt="картинка">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="order" id="order">
+		<div class="container">
+      <div class="order__inner">
+					<form class="form">
+						<h4 class="form__title">Заказать</h4>
+						<p class="form__text">Если Вы хотите заказать велосипед, оставьте свой контакт, и наш менеджер перезвонит вам в ближайшее время</p>
+						<input class="form__input-name" type="text" placeholder="имя">
+						<input class="form__input-phone" type="tel" placeholder="телефон">
+						<p class="form__option">выберите желаемый цвет</p>
+						<div class="form__label-row">
+	
+						<label class="form__label">
+						<input class="form__input-radio" type="radio" name="radio">
+						<div class="form__bike">
+							<img src="/img/grey.png" alt="Himo C26" class="form__bike-img">
+							<p class="form__bike-price"><span>68 999 руб.</span></p>
+						</div>
+						<div class="form__radio-style form__radio-style--grey"></div>
+						</label>
+	
+						<label class="form__label">
+							<input class="form__input-radio" type="radio" name="radio" checked>
+							<div class="form__bike">
+								<img src="/img/block5-2.png" alt="Himo C26" class="form__bike-img">
+								<p class="form__bike-price"><span>70 999 руб.</span></p>
+							</div>
+							<div class="form__radio-style form__radio-style--white"></div>
+							</label>
+							<label class="form__label">
+								<input class="form__input-radio" type="radio" name="radio">
+								<div class="form__bike">
+									<img src="/img/block5-3.png" alt="Himo C26" class="form__bike-img">
+									<p class="form__bike-price"><span>72 999 руб.</span></p>
+								</div>
+								<div class="form__radio-style form__radio-style--red"></div>
+								</label>
+						</div>
+						<button class="bike__link-order" type="submit">ЗАКАЗАТЬ</button>
+					</form>
+      </div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<a href="#!" class="footer__link">Политика конфиденциальности</a>
+            <div class="footer__sociall">
+					<a class="footer__social-link" href="#!">
+						<img class="footer__social-img" src="/img/icon/inst.svg" alt="иконка"></a>
+						<a class="footer__social-link" href="#!">
+							<img class="footer__social-img" src="/img/icon/facebook.svg" alt="иконка"></a>
+				</div>
+				<div class="footer__contacts">
+					<a href="tel:+380506777777" class="footer__contacts-link">
+						<img src="/img/icon/phone.svg" alt="иконка" class="footer__contacts-img">
+						<span>+38 050 677 77 77</span>
+					</a>
+					<a href="mailto:elektrobikeukr@gmail.com" class="footer__contacts-link">
+						<img src="/img/icon/mail.svg" alt="иконка" class="footer__contacts-img">
+						<span>elektrobikeukr@gmail.com</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="/js/slick.min.js"></script>
