@@ -565,11 +565,14 @@ body {
 
 
 	.characteristics__img {
-		display: none;
-   /* order: -1;
-	max-width: 100%;
-	height: auto;
-	margin: 0 0 30px; */
+		/* display: none; */
+   order: -1;
+	width: 100%;
+	margin: 0 0 30px;
+	}
+
+	.characteristics__img img {
+		width: 100%;
 	}
 
 	.characteristics__name {
